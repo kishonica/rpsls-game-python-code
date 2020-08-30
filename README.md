@@ -95,6 +95,10 @@ def rpsls(player_choice):
     else:
         print("player wins")
     pass
+    print input("enter your choice")
+    rpsls(player_choice)
+    
+    
 # test your code
 rpsls("rock")
 rpsls("Spock")
